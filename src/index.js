@@ -105,7 +105,6 @@ class RBSheet extends Component {
 
     return (
       <Modal
-        transparent
         animationType={animationType}
         visible={modalVisible}
         supportedOrientations={SUPPORTED_ORIENTATIONS}
