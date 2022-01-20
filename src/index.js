@@ -107,6 +107,7 @@ class RBSheet extends Component {
       <Modal
         animationType={animationType}
         visible={modalVisible}
+  transparent
         supportedOrientations={SUPPORTED_ORIENTATIONS}
         onRequestClose={() => {
           if (closeOnPressBack) this.setModalVisible(false);
